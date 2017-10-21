@@ -13,7 +13,7 @@ sudo apt-get install --no-install-recommends xserver-xorg -y
 #sudo apt-get install xfce4 xfce4-terminal -y
 #sudo apt-get install gvfs-backends
 # 2. (C) PIXEL GUI:
-sudo apt-get install --no-install-recommends raspberrypi-ui-mods lxterminal gvfs
+sudo apt-get install --no-install-recommends raspberrypi-ui-mods lxterminal gvfs -y
 
 # 3. Login Manager:
 #sudo apt-get install lightdm -y
