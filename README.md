@@ -1,3 +1,6 @@
+
+# Not currently working anymore since 'PIXEL' update.
+
 Takes around 90-120 minutes on a RPi2
 
 # Setup:
