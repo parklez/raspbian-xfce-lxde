@@ -1,4 +1,3 @@
-#https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=133691
 # Updates
 sudo apt-get update
 sudo apt-get upgrade -y
@@ -11,13 +10,12 @@ sudo apt-get install --no-install-recommends xserver-xorg -y
 #sudo apt-get install lxde-core lxappearance -y
 # 2. (B) XFCE GUI:
 #sudo apt-get install xfce4 xfce4-terminal -y
-#sudo apt-get install gvfs-backends
 # 2. (C) PIXEL GUI:
-sudo apt-get install raspberrypi-ui-mods -y
+sudo apt-get install --no-install-recommends raspberrypi-ui-mods lxterminal gvfs -y
 
 # 3. Login Manager:
+# PIXEL GUI needs no lightdm
 #sudo apt-get install lightdm -y
-#PIXEL GUI needs no lightdm
 
 # Remove xscreensaver(?):
 #sudo apt-get remove --auto-remove xscreensaver -y
@@ -54,9 +52,6 @@ sudo apt-get install chromium-browser -y
 
 # Torrent client:
 #sudo apt-get install transmission -y
-
-# Japanese fonts:
-#sudo aptitude install ttf-kochi-mincho ttf-kochi-gothic ttf-sazanami-mincho -y
 
 # Clear:
 sudo apt-get autoremove -y
