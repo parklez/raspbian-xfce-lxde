@@ -3,10 +3,10 @@
 
 Takes around 90-120 minutes on a RPi2
 
-Get the light package from raspberry pi website, get a keyboard, monitor, log in using "pi" and "raspberry" then with sudo raspi-config, enable ssh by going to "interfacing options". after that you may use putty and leave the pi alone.
+Get the light package from raspberry pi website, get a keyboard, monitor, log in using "pi" and "raspberry" then with sudo raspi-config, enable ssh by going to "". after that you may use putty and leave the pi alone.
 
 # Setup:
-Expand File System and Overclock it:
+Enable SSH under "interfacing options", expand file system and overclock it:
 ```sh
 $ sudo raspi-config
 ```
