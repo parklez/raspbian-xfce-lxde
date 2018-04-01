@@ -44,8 +44,8 @@ sudo apt-get install leafpad -y
 
 # Python-Related:
 sudo apt-get install idle3 -y
-sudo apt-get install python3-pip -y
-sudo apt-get install python-tk -y
+#sudo apt-get install python3-pip -y
+#sudo apt-get install python-tk -y
 
 # Chromium Browser
 sudo apt-get install chromium-browser -y
