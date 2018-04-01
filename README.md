@@ -1,11 +1,11 @@
 
 # Raspbian Light with Desktop Enviroment and Apps
 
-Takes around 90-120 minutes on a RPi2, should use around 76MB of RAM by the end of this.
+Takes around 90-120 minutes on a RPi2, should use around 76MB of RAM by the end of this using RPD/PIXEL.
 
 Get the light package from raspberry pi website [link](https://www.raspberrypi.org/downloads/raspbian/), get a keyboard, monitor, log in using "pi" and "raspberry".
 
-# Setup:
+### Setup:
 Enable SSH under "interfacing options", expand file system and overclock it:
 ```sh
 $ sudo raspi-config
@@ -20,12 +20,12 @@ Choose to boot directly into the desktop enviroment without login screen and cha
 ```sh
 $ sudo raspi-config
 ```
-# Other:
+### Other:
 Type the following to fix omxplayer default window size to 'min':
 ```sh
 $ sudo kweb
 ```
 
-# Further Reading:
+### Further Reading:
 - https://www.raspberrypi.org/forums/viewtopic.php?p=890408
 - https://andrewvaughan.io/raspbian-i-love-you-but-youre-fat/
