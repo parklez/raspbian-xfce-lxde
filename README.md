@@ -1,16 +1,16 @@
 
-# Not currently working anymore since 'PIXEL' update.
+# Raspbian Light with Desktop Enviroment and Apps
 
-Takes around 90-120 minutes on a RPi2
+Takes around 90-120 minutes on a RPi2, should use around 76MB of RAM by the end of this.
 
-Get the light package from raspberry pi website, get a keyboard, monitor, log in using "pi" and "raspberry" then with sudo raspi-config, enable ssh by going to "". after that you may use putty and leave the pi alone.
+Get the light package from raspberry pi website [link](https://www.raspberrypi.org/downloads/raspbian/), get a keyboard, monitor, log in using "pi" and "raspberry".
 
 # Setup:
 Enable SSH under "interfacing options", expand file system and overclock it:
 ```sh
 $ sudo raspi-config
 ```
-Reboot when asked.
+Reboot when asked. Now you should be able to use Putty or equivalent from your main desktop.
 
 Copy **install.sh** to '/home/pi/' using FileZilla or equivalent:
 ```sh
